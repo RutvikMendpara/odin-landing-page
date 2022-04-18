@@ -8,6 +8,7 @@
 /* header */
 .header {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding: 16px;
     background-color: #1F2937;
@@ -50,6 +51,7 @@
 
 .mainsec1 {
     display: flex;
+    flex-wrap: wrap;
     background-color: #1F2937;
     padding: 50px 150px 50px 160px;
 
@@ -101,6 +103,7 @@
 .section2 {
 
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
     /* border: 2px solid black; */
@@ -153,6 +156,7 @@
 }
 
 .main-phara {
+    flex-wrap: wrap;
     display: flex;
     flex-direction: column;
     padding: 70px 0px;
@@ -187,6 +191,7 @@
 /* section 4 */
 
 .sec4main {
+    flex-wrap: wrap;
     display: flex;
     justify-content: space-between;
     background-color: #3882F6;
@@ -228,6 +233,10 @@
 /* footer */
 
 .footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     background-color: #1F2937;
     color: white;
     font-weight: lighter;
