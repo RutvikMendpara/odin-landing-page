@@ -2,6 +2,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: Roboto, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 /* header */
@@ -9,16 +10,19 @@
     display: flex;
     justify-content: space-between;
     padding: 16px;
-    background-color:   #1F2937;
+    background-color: #1F2937;
 }
-.header .left{
+
+.header .left {
     font-size: 24px;
     color: #f9faf8;
+    padding-left: 150px;
 }
+
 .header .right {
 
     display: flex;
- 
+    padding-right: 200px;
 
 
 }
@@ -44,52 +48,57 @@
 
 /* section 1 */
 
-.section1 {
+.mainsec1 {
     display: flex;
-    background-color:   #1F2937;
+    background-color: #1F2937;
+    padding: 50px 150px 50px 160px;
 
 }
 
-.section1-left {
+.secleft1 {
+    width: 500px;
+    height: 230px;
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
     font-size: 18px;
     color: #e5e7eb;
-    margin: 0px 200px;
-    padding: 50px;
+    /* margin: 20px; */
+    padding-right: 50px;
+
+
 }
 
-.section1-left h1{
-    font-size: 48px;
+.headsec1 {
+    font-size: 44px;
     font-weight: bolder;
     color: #f9faf8;
-}
-.section1-right img{
-    margin: 0px 200px;
-}
-.section1 img{
-    border: 2px solid #e5e7eb;
-    /* height: 300px;
-    width: 300px; */
+
 }
 
-.section1-left .btn{
-    padding: 10px 0px;
-}
-
-.btn button{
+.btn button {
     color: white;
     background-color: #3882F6;
     height: 35px;
     width: 140px;
     border: 2px solid #3882F6;
-    border-radius: 33px;
+    border-radius: 5px;
+}
+
+.secright1 {
+    width: 500px;
+    height: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e5e7eb;
+    border: 2px solid #797b80;
+    background-color: #797b80;
+    padding-right: 50px;
 }
 
 /* section 2 */
 
-.section2{
+.section2 {
 
     display: flex;
     flex-direction: column;
@@ -97,29 +106,32 @@
     /* border: 2px solid black; */
 
 }
-.section-2header{
+
+.section-2header {
     padding-top: 20px;
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
 }
 
-.mainbox{
+.mainbox {
     display: flex;
     margin-left: 200px;
     margin-right: 200px;
 
 }
 
-.subbox{
+.subbox {
     /* border: 2px solid black; */
     display: flex;
     padding: 10px;
+    padding-bottom: 65px;
     margin: 20px;
     flex-direction: column;
     align-items: center;
 }
-.box{
+
+.box {
 
     border: 2px solid #3882F6;
     border-radius: 10px;
@@ -129,16 +141,21 @@
     width: 120px;
 }
 
+.boxphara {
+    text-align: center;
+}
+
 
 /* section 3 */
 
-.section3{
+.section3 {
     background-color: #e5e7eb;
 }
 
-.main-phara{
+.main-phara {
     display: flex;
     flex-direction: column;
+    padding: 70px 0px;
     margin: 0px 400px;
     /* border: 2px solid black; */
 
@@ -151,13 +168,15 @@
     justify-content: center;
     align-items: center;
 }
-.sec3phara1{
+
+.sec3phara1 {
     font-size: 36px;
     font-style: italic;
     font-weight: lighter;
     color: #1F2937;
 }
-.sec3text{
+
+.sec3text {
     display: flex;
     justify-content: end;
     font-size: 24px;
@@ -167,16 +186,17 @@
 
 /* section 4 */
 
-.sec4main{
+.sec4main {
     display: flex;
     justify-content: space-between;
     background-color: #3882F6;
     border-radius: 10px;
     /* border: 2px solid black; */
-    margin: 80px 300px;
+    margin: 80px 200px;
     padding: 30px;
 }
-.sec4right-head{
+
+.sec4right-head {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -185,26 +205,33 @@
     color: #e5e7eb;
 }
 
-.sec4left{
+.sec4left {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.sec4right-phara{
+.sec4left .btn {
+    border: 2px solid #f9faf8;
+    color: white;
+    background-color: #3882F6;
+    height: 35px;
+    width: 140px;
+    border-radius: 5px;
+}
+
+.sec4right-phara {
     font-size: 16px;
     color: #e5e7eb;
 }
+
 /* footer */
 
-.footer{
-    background-color:   #1F2937;
+.footer {
+    background-color: #1F2937;
     color: white;
-    /* font-weight: 400; */
     font-weight: lighter;
     text-align: center;
     padding: 10px 0px;
 
 }
-
-
